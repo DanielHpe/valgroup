@@ -1,0 +1,35 @@
+[project]
+name = "projeto_valgroup"
+version = "1.0.0"
+description = "Projeto de teste para a empresa ValGroup"
+authors = [
+    { name = "Daniel Henrique Pereira", email = "danielhpe360@gmail.com" }
+]
+requires-python = ">=3.10"
+
+# If you want dependencies:
+# dependencies = [
+#     "requests",
+#     "ruff"
+# ]
+
+[tool.ruff]
+line-length = 88
+
+[tool.ruff.lint]
+select = [
+    "A",   # flake8 
+    "E",   # pycodestyle errors
+    "W",   # pycodestyle warnings
+    "F",   # pyflakes
+    "I",   # import sort
+    "B",   # flake8-bugbear
+    "UP",  # pyupgrade
+]
+ignore = [
+    "E501", # ignore line too long, if needed
+]
+
+[tool.ruff.lint.isort]
+combine-as-imports = true
+force-single-line = false

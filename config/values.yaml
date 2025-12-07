@@ -1,0 +1,7 @@
+env:
+  - name: ACCESS_URL
+    value: https://desafio-rpa-946177071851.us-central1.run.app
+  - name: ACCESS_USER
+    value: daniel.pereira
+  - name: ACCESS_PASSWORD
+    value: 4eoQOzWgseC9tBjlhSec
