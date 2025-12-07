@@ -22,11 +22,6 @@ class EmailView:
         ):
         self.email_body = email_body
 
-    def test_dados(self):
-        self.sender_email = "danielhpe360@gmail.com"
-        self.app_password = "tejz xpwc elda htll"
-        self.receiver_email = "danielhpe360@gmail.com"
-
     def set_email_body(self, email_body):
         self.email_body = email_body
 
